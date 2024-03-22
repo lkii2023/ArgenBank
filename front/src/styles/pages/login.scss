@@ -1,0 +1,55 @@
+@import "../utils/variables";
+
+.sign-in-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: $secondary-color;
+  background-color: $secondary-color;
+  color: $background-color;
+}
+
+.sign-in-content {
+  box-sizing: border-box;
+  background-color: $background-color;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    label {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    input {
+      padding: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+
+  .input-remember {
+    display: flex;
+    cursor: pointer;
+
+    label {
+      margin-left: 0.25rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.error-style {
+  color: $error-color;
+}

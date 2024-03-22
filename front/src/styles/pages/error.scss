@@ -1,0 +1,27 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.error-404 {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 84vh;
+
+  &_h1 {
+    font-size: 9rem;
+  }
+
+  &_p {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &_a {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: $secondary-color;
+    padding-bottom: 7rem;
+  }
+}
